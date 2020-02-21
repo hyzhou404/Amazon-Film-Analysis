@@ -1,0 +1,2 @@
+µº»Î√¸¡Ó:
+neo4j-import --into movie.db --id-type string --nodes:ACTOR actors.csv --nodes:DIRECTOR directors.csv --nodes:FORMAT formats.csv --nodes:GENRE genres.csv --nodes:LANGUAGE languages.csv --nodes:MOVIE movies.csv --nodes:STUDIO studios.csv --relationships:ACT act.csv --relationships:DIRECT direct.csv --relationships:HAS_EDITION hasEdition.csv --relationships:HAS_GENRE hasGenre.csv --relationships:HAS_LANGUAGE hasLanguage.csv --relationships:PRODUCE produce.csv

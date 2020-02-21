@@ -1,0 +1,1 @@
+hive在目前是不会运行的，如果想要运行，需要配置好hive，并导入数据，打开hive-service，然后将runFunction.java中的hiveExe设为true
